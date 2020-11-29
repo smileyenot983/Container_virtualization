@@ -12,17 +12,17 @@ Threads started!
 
 
 General statistics:
-    total time:                          10.0046s
-    total number of events:              73139
+    total time:                          10.0038s
+    total number of events:              58619
 
 Latency (ms):
          min:                                    0.04
-         avg:                                    8.75
-         max:                                  152.17
-         95th percentile:                       43.39
-         sum:                               640148.82
+         avg:                                   10.92
+         max:                                  471.38
+         95th percentile:                       68.05
+         sum:                               640125.17
 
 Threads fairness:
-    events (avg/stddev):           1142.7969/132.60
-    execution time (avg/stddev):   10.0023/0.00
+    events (avg/stddev):           915.9219/148.77
+    execution time (avg/stddev):   10.0020/0.00
 

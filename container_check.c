@@ -59,13 +59,13 @@ static int child_fn(void* arg) {
 
 
 //    BENCHMARK
-    system("mkdir benchmarks");
-    system("sysbench cpu --cpu-max-prime=20000 run > benchmarks/cpu_benchmark.txt");
-    system("sysbench threads --num-threads=64 --thread-yields=100 --thread-locks=2 run >benchmarks/thread_benchmark.txt");
-    system("sysbench memory run > benchmarks/memory_benchmark.txt");
-    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw prepare");
-    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw run > benchmarks/fileio_benchmark.txt");
-    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw cleanup");
+//    system("mkdir benchmarks");
+//    system("sysbench cpu --cpu-max-prime=20000 run > benchmarks/cpu_benchmark.txt");
+//    system("sysbench threads --num-threads=64 --thread-yields=100 --thread-locks=2 run >benchmarks/thread_benchmark.txt");
+//    system("sysbench memory run > benchmarks/memory_benchmark.txt");
+//    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw prepare");
+//    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw run > benchmarks/fileio_benchmark.txt");
+//    system("sysbench fileio --num-threads=16 --file-total-size=20G --file-test-mode=rndrw cleanup");
 
 
 
